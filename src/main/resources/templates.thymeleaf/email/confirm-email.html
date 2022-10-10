@@ -1,0 +1,29 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div style="margin: 0 auto; border: 2px solid lightgray; width: 45%">
+    <div style="text-align: right">
+        <img data-th-src="|cid:vstu-logo|" style="height: 150px"/>
+    </div>
+    <div style="border-bottom: 5px solid lightblue; height: 0; width: 90%; margin: 0 auto; border-radius: 3px; position: relative; bottom: 40px;"></div>
+    <div style="margin: 10px 50px 50px;">
+        <span style="font-size: 21px;">Dear User,</span>
+        <div style="margin-top: 55px;">
+                    <span style="font-size: 17px; text-align: justify">
+                        You have registered in the personal account of the VSTU scientific conference. Please confirm your email address.
+                    </span>
+        </div>
+        <div style="margin: 55px 0; text-align: center;">
+            <a th:href="${link}"><img data-th-src="|cid:register-button|" style="height: 80px; width: 350px;"/></a>
+        </div>
+        <div style="font-size: 17px;">Thank you,</div>
+        <div style="margin-bottom: 55px; font-size: 17px;">The development team of "VSTU"</div>
+        <div style="color: grey; font-family: cursive">
+            <div>Moskovskiy Avenue 72-1, Vitebsk, Belarus, 210035</div>
+            <div>(212) 47-50-26</div>
+            <div>hello@vstu.com</div>
+            <div>https://abitpriv.vstu.by</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div style="margin: 0 auto; border: 2px solid lightgray; width: 45%">
+    <div style="text-align: right">
+        <img data-th-src="|cid:vstu-logo|" style="height: 150px"/>
+    </div>
+    <div style="border-bottom: 5px solid lightblue; height: 0; width: 90%; margin: 0 auto; border-radius: 3px; position: relative; bottom: 40px;"></div>
+    <div style="margin: 10px 50px 50px;">
+        <span style="font-size: 21px;">Уважаемый пользователь,</span>
+        <div style="margin-top: 55px;">
+                    <span style="font-size: 17px; text-align: justify">
+                        Вы зарегистрировались в информационной системе Витебского государственного технологического университета. Пароль для входа в личный кабинет:
+                    </span><label th:text="${password}"></label >
+        </div>
+        <div style="font-size: 17px;">Большое спасибо,</div>
+        <div style="margin-bottom: 55px; font-size: 17px;">Команда разработчиков УО "ВГТУ"</div>
+        <div style="color: grey; font-family: cursive">
+            <div>Moskovskiy Avenue 72-1, Vitebsk, Belarus, 210035</div>
+            <div>(212) 47-50-26</div>
+            <div>hello@vstu.com</div>
+            <div>https://abitpriv.vstu.by</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
